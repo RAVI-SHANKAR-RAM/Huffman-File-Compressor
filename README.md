@@ -42,21 +42,22 @@ Encodes the entire text using those codes.
 Bit-packs the binary data and writes it to a compressed .bin file.
 
 Supports full decompression to restore the original file.
-
 Sample Output
+
 Enter filename to compress: input.txt
+
 Compression successful! Compressed file saved as: input.bin
+
 Original: 2170 bytes
+
 Compressed: 1214 bytes
+
 Compression Ratio: 55.94%
+
 Decompression successful! Decompressed file saved as: input_decompressed.txt
-Huffman-File-Compressor/
-├── main.cpp                 // Core source code
-├── input.txt                // Sample input file
-├── input.bin                // Compressed binary output
-├── input_decompressed.txt   // Output after decompression
-└── README.md                // Project documentation
+
 Concepts Used
+
 Huffman Encoding (Greedy algorithm)
 
 Priority Queue with Custom Comparator
