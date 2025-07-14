@@ -159,8 +159,8 @@ public:
             streamsize originalSize = orig.tellg();
             streamsize compressedSize = comp.tellg();
 
-            cout << " Original: " << originalSize << " bytes" << endl;
-            cout << " Compressed: " << compressedSize << " bytes" << endl;
+            cout << "Original: " << originalSize << " bytes" << endl;
+            cout << "Compressed: " << compressedSize << " bytes" << endl;
 
             if (originalSize > 0) {
                 double ratio = 100.0 * compressedSize / originalSize;
